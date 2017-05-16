@@ -1,0 +1,24 @@
+{
+    "name": "benlipp/spark-pay-api",
+    "description": "PHP api for connecting to Spark Pay",
+    "keywords": ["spark", "pay", "api", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Benjamin Lippincott",
+            "email": "benji.lippincott@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "6.1.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Benlipp\\SparkPay\\": "src/"
+        }
+    }
+}
